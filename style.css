@@ -23,12 +23,7 @@ video {
   height: 480px;
 }
 
-button {
-  padding: 10px;
-  float: left;
-  margin: 5px 3px 5px 10px;
 
-}
 
 .removed {
   display: none;
@@ -45,20 +40,17 @@ button {
   text-align:center;
 }
 
-/* .col-6 buttons{
-  display:flex;
-} */
-.btn{
-   float:left;
-  margin-top:90px;
+
+button {
+  padding: 10px;
+  float: left;
+  margin: 5px 3px 5px 10px;
 
 }
 
-/* .col-6 buttons {
-  text-align: center;
+/* .btn{
+  float:left;
+  margin-top:90px;
+
 } */
 
-/* .btn{
-/*   display: inline-block; */
-/*   margin-top:45px;
-} */ 
