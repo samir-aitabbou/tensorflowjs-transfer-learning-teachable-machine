@@ -1,11 +1,16 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+/* background: linear-gradient(90deg, rgba(2,0,36,0.8076272745426296) 0%, rgba(67,160,244,0.9812967423297444) 83%, rgba(7,157,240,1) 100%); */
+  background: linear-gradient(90deg, rgba(2,0,36,0.8076272745426296) 0%, rgba(67,160,244,0.9812967423297444) 83%, rgba(4,127,196,0.894462008436187) 100%);
+
+
+
 }
 
 h1 {
   font-style: italic;
-  color: #FF6F00;
+  color: white;
 }
 
 
@@ -22,6 +27,7 @@ button {
   padding: 10px;
   float: left;
   margin: 5px 3px 5px 10px;
+
 }
 
 .removed {
@@ -30,4 +36,29 @@ button {
 
 #status {
   font-size:150%;
+  text-align:center;
+  color:wheat;
 }
+
+.parag{
+  margin-bottom: 45px;
+  text-align:center;
+}
+
+/* .col-6 buttons{
+  display:flex;
+} */
+.btn{
+   float:left;
+  margin-top:90px;
+
+}
+
+/* .col-6 buttons {
+  text-align: center;
+} */
+
+/* .btn{
+/*   display: inline-block; */
+/*   margin-top:45px;
+} */ 
