@@ -80,6 +80,7 @@ function hasGetUserMedia() {
 }
 
 function enableCam() {
+  loadMobileNetFeatureModel();
   if (hasGetUserMedia()) {
     // getUsermedia parameters.
     const constraints = {
