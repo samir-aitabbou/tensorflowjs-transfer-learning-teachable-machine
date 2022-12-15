@@ -210,7 +210,7 @@ function dataGatherLoop() {
 async function trainAndPredict() {
   load_head_Model();
   predict = false;
-  tf.util.shuffleCombo(trainingDataInputs, trainingDataOutputs);
+//   tf.util.shuffleCombo(trainingDataInputs, trainingDataOutputs);
   let outputsAsTensor = tf.tensor1d(trainingDataOutputs, 'int32');
   let oneHotOutputs = tf.oneHot(outputsAsTensor, CLASS_NAMES.length);
   let inputsAsTensor = tf.stack(trainingDataInputs);
