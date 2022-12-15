@@ -25,8 +25,8 @@ setInterval(() => {
 
 
 
-
-
+// load pre-entrained Model (MobileNet V3)
+loadMobileNetFeatureModel();
 
 
 
@@ -162,7 +162,7 @@ async function loadMobileNetFeatureModel() {
 }
 
 // Call the function immediately to start loading.
-loadMobileNetFeatureModel();
+//loadMobileNetFeatureModel();
 
 
 //********** Model  (multi-layer perceptron) *************//
