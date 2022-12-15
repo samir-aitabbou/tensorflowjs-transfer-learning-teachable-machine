@@ -38,6 +38,7 @@ const STOP_DATA_GATHER = -1;
 const CLASS_NAMES = [];
 
 let mobilenet = undefined;
+let model = undefined;
 let gatherDataState = STOP_DATA_GATHER;
 let videoPlaying = false;
 let trainingDataInputs = [];
@@ -75,7 +76,7 @@ loadMobileNetFeatureModel();
 
 function load_head_Model() {
 	
-let model = tf.sequential();
+model = tf.sequential();
 model.add(tf.layers.dense({inputShape: [1024], units: 128, activation: 'relu'}));
 model.add(tf.layers.dense({units: CLASS_NAMES.length, activation: 'softmax'}));
 
@@ -91,6 +92,8 @@ model.compile({
   // As this is a classification problem you can record accuracy in the logs too!
   metrics: ['accuracy']  
 }); 
+ 
+ console.log(" Head Model loaded !!");
 }
 
 
