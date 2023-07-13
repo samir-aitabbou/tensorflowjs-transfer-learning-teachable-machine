@@ -1,5 +1,5 @@
 # tensorflowjs-transfer-learning-teachable-machine
-https://tensorflowjs-transfer-learning-teachable-machine.vercel.app/
+Application deployé :  https://tensorflowjs-transfer-learning-teachable-machine.vercel.app/
 <p>It's My First Transfer Learning Application Version Using TensorFlow.Js Live In The Browser. It's About Using The Pre-Chopped Up MobileNet V3 Base Model That Provides Image Feature Vectors Instead Of Classifications. And Than Train A New Prediction Head That Can Recognize Custom Objects From Webcam Imagery. And Finally Use The Resulting Models To Classify Data In Real Time.</p>
 
 <p>
